@@ -91,31 +91,40 @@ using DNPAssigment1.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 32 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\Login.razor"
+#line 43 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\Login.razor"
        
     private string username;
     private string password;
     private string errorMessage;
 
-    public async Task PerformLogin() {
+    public async Task PerformLogin()
+    {
         errorMessage = "";
-        try {
+        try
+        {
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
             username = "";
             password = "";
-        } catch (Exception e) {
+        }
+        catch (Exception e)
+        {
             errorMessage = e.Message;
         }
     }
 
-    public async Task PerformLogout() {
+    public async Task PerformLogout()
+    {
         errorMessage = "";
         username = "";
         password = "";
-        try {
+        try
+        {
             ((CustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
             NavigationManager.NavigateTo("/");
-        } catch (Exception e) { }
+        }
+        catch (Exception e)
+        {
+        }
     }
 
 
