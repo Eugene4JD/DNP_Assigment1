@@ -99,3 +99,7 @@ C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug
 C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.pdb
 C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.genruntimeconfig.cache
 C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.csproj.CopyComplete
+C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Add.razor.g.cs
+C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\View.razor.g.cs
+C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Pages\Add.razor.g.cs
+C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Pages\View.razor.g.cs

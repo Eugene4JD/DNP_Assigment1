@@ -83,7 +83,7 @@ using DNPAssigment1.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Shared\NavMenu.razor"
+#line 38 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

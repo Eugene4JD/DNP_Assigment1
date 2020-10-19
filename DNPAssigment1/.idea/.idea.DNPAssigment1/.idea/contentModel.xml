@@ -41,10 +41,12 @@
         </e>
         <e p="Pages" t="Include">
           <e p="_Host.cshtml" t="Include" />
+          <e p="Add.razor" t="Include" />
           <e p="Error.cshtml" t="Include" />
           <e p="Index.razor" t="Include" />
           <e p="Login.razor" t="Include" />
           <e p="SecurityLevel.razor" t="Include" />
+          <e p="View.razor" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
