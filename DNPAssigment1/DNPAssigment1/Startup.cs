@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Blazored.Modal;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,7 @@ namespace DNPAssigment1
             services.AddServerSideBlazor();
             services.AddSingleton<IFamilyService, FamilyService>();
             services.AddScoped<IUserService, InMemoryUserService>();
+            services.AddBlazoredModal();
             services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
             services.AddAuthorization(option =>
             {

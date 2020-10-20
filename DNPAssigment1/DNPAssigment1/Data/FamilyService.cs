@@ -12,6 +12,7 @@ namespace DNPAssigment1.Data
     {
         private string familyFile = "families.json";
         private IList<Family> families;
+        private Family selectedFamily;
 
         public FamilyService()
         {
@@ -29,7 +30,7 @@ namespace DNPAssigment1.Data
         
         public IList<Family> GetFamilies()
         {
-            throw new System.NotImplementedException();
+            return this.families;
         }
 
         public void AddFamily(Family family)
@@ -210,6 +211,16 @@ namespace DNPAssigment1.Data
                 }
             };
             families = fm.ToList();
+        }
+
+        public Family getSelectedFamily()
+        {
+            return this.selectedFamily;
+        }
+
+        public void setSelectedFamily(Family family)
+        {
+            this.selectedFamily = family;
         }
     }
 }

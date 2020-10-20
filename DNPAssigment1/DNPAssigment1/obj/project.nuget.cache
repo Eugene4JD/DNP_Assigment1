@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "dxIhEwwxQkgDjKgCj9FZ7LGGl/4bYR99+WmKtKTlUmKFEwLvxp/HgfHKOHq3mfauRIjZji+FLUZJMyp7aux5/Q==",
+  "dgSpecHash": "A0IQ/6hCMXmiGW1hBAwGlke2tb2+vkOiVgu0WZVuFaGHB146VeU4xzYMV7o6tDgcGf/2B43ITGStsd8/1D7fUQ==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Jenia\\Documents\\GitHub\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jenia\\.nuget\\packages\\blazored.modal\\5.1.0\\blazored.modal.5.1.0.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.6\\microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.6\\microsoft.aspnetcore.components.forms.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.6\\microsoft.aspnetcore.components.web.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.6\\microsoft.aspnetcore.metadata.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.6\\microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.6\\microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.6\\microsoft.extensions.logging.abstractions.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.extensions.options\\3.1.6\\microsoft.extensions.options.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.jsinterop\\3.1.6\\microsoft.jsinterop.3.1.6.nupkg.sha512",
+    "C:\\Users\\Jenia\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.1\\microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

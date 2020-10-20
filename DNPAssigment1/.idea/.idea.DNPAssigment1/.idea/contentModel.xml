@@ -10,6 +10,11 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Components" t="Include">
+          <e p="AdultForm.razor" t="Include" />
+          <e p="ChildForm.razor" t="Include" />
+          <e p="PetForm.razor" t="Include" />
+        </e>
         <e p="Data" t="Include">
           <e p="CustomAuthenticationStateProvider.cs" t="Include" />
           <e p="FamilyService.cs" t="Include" />
@@ -18,6 +23,7 @@
           <e p="IUserService.cs" t="Include" />
         </e>
         <e p="DNPAssigment1.csproj" t="IncludeRecursive" />
+        <e p="families.json" t="Include" />
         <e p="Models" t="Include">
           <e p="Adult.cs" t="Include" />
           <e p="Child.cs" t="Include" />
@@ -43,8 +49,8 @@
           <e p="_Host.cshtml" t="Include" />
           <e p="Add.razor" t="Include" />
           <e p="Error.cshtml" t="Include" />
+          <e p="FamilyView.razor" t="Include" />
           <e p="Index.razor" t="Include" />
-          <e p="Login.razor" t="Include" />
           <e p="SecurityLevel.razor" t="Include" />
           <e p="View.razor" t="Include" />
         </e>
