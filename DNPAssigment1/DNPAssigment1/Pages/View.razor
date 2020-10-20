@@ -1,164 +1,70 @@
-﻿@page "/view"
-@using DNPAssigment1.Models
-<h2>
-    Family information:
-</h2>
+﻿@inject IFamilyService FamilyService;
 
-<div class="row">
-    <div class="col-1">
-        Street:
-    </div>
-    <div class="col-2">
-        <b>blala</b>
-    </div>
-</div>
-<div class="row">
-    <div class="col-1">
-        House Nr:
-    </div>
-    <div class="col-2">
-        <b>blala</b>
-    </div>
-</div>
-<h2>Adults:</h2>
-@if (Adults == null)
+@page "/view"
+@using DNPAssigment1.Models
+@using DNPAssigment1.Data
+
+<p>Select your family:</p>
+<input @bind-value="SearchTerm" @bind-value:event="oninput">
+<span class="text-muted ml-5">
+    Showing @FilteredFamilies.Count out of @Families.Count
+</span>
+
+
+@if (Families == null)
 {
-    <p>Loading...</p>
+    <p>
+        <em>Loading...</em>
+    </p>
 }
-else if (!Adults.Any())
+else if (!Families.Any())
 {
-    <p>There are no adults in the family</p>
+    <p>There are no families</p>
 }
 else
 {
     <table class="table">
         <thead>
         <tr>
-            <th>F. Name</th>
-            <th>L. Name</th>
-            <th>ID</th>
-            <th>Hair Color</th>
-            <th>Eye Color</th>
-            <th>Age</th>
-            <th>Weight</th>
-            <th>Height</th>
-            <th>Job</th>
+            <th>Family ID</th>
+            <th>Last Name</th>
+            <th>Address</th>
         </tr>
         </thead>
         <tbody>
-        @foreach (var adult in Adults)
+        @foreach (var family in FilteredFamilies)
         {
             <tr>
-                <td>@adult.FirstName</td>
-                <td>@adult.LastName</td>
-                <td>@adult.Id</td>
-                <td>@adult.HairColor</td>
-                <td>@adult.EyeColor</td>
-                <td>@adult.Age</td>
-                <td>@adult.Weight</td>
-                <td>@adult.Height</td>
-                <td>@adult.Job</td>
+                <td>@family.Id</td>
+                <td>@family.Adults.First().LastName</td>
+                <td>@family.Address</td>
+                <td>
+                    <button class="btn btn-outline-dark btn-sm">More info.</button>
+                </td>
             </tr>
         }
         </tbody>
     </table>
 }
-<h2>Children:</h2>
-@if (Children == null)
-{
-    <p>Loading...</p>
-}
-else if (!Children.Any())
-{
-    <p>There are no children in the family</p>
-}
-else
-{
-    <table class="table">
-        <thead>
-        <tr>
-            <th>F. Name</th>
-            <th>L. Name</th>
-            <th>ID</th>
-            <th>Hair Color</th>
-            <th>Eye Color</th>
-            <th>Age</th>
-            <th>Weight</th>
-            <th>Height</th>
-            <th>Interests</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var child in Children)
-        {
-            <tr>
-                <td>@child.FirstName</td>
-                <td>@child.LastName</td>
-                <td>@child.Id</td>
-                <td>@child.HairColor</td>
-                <td>@child.EyeColor</td>
-                <td>@child.Age</td>
-                <td>@child.Weight</td>
-                <td>@child.Height</td>
-                <td>@child.Interests.ToArray().ToString()</td>
-            </tr>
-        }
-        </tbody>
-    </table>
-}
-<h2>Pets:</h2>
-@if (Pets == null)
-{
-    <p>Loading...</p>
-}
-else if (!Pets.Any())
-{
-    <p>There are no pets in the family</p>
-}
-else
-{
-    <table class="table">
-        <thead>
-        <tr>
-            <th>F. Name</th>
-            <th>L. Name</th>
-            <th>ID</th>
-            <th>Hair Color</th>
-            <th>Eye Color</th>
-            <th>Age</th>
-            <th>Weight</th>
-            <th>Height</th>
-            <th>Job</th>
-        </tr>
-        </thead>
-        <tbody>
-        @foreach (var adult in Adults)
-        {
-            <tr>
-                <td>@adult.FirstName</td>
-                <td>@adult.LastName</td>
-                <td>@adult.Id</td>
-                <td>@adult.HairColor</td>
-                <td>@adult.EyeColor</td>
-                <td>@adult.Age</td>
-                <td>@adult.Weight</td>
-                <td>@adult.Height</td>
-                <td>@adult.Job</td>
-            </tr>
-        }
-        </tbody>
-    </table>
-}
+
 
 
 @code {
+    string SearchTerm { get; set; } = "";
+    private IList<Family> Families;
+    IList<Family> FilteredFamilies => Families.Where(i => i.Adults.First().LastName.ToLower().Contains(SearchTerm.ToLower())).ToList();
     private IList<Adult> Adults;
     private IList<Child> Children;
     private IList<Pet> Pets;
 
-    protected override Task OnInitializedAsync()
+    protected async override Task OnInitializedAsync()
     {
-        return base.OnInitializedAsync();
+        Families = FamilyService.GetFamilies();
+    }
+
+    private void DisplaySelectedFamily(ChangeEventArgs changeEventArgs)
+    {
+        throw new NotImplementedException();
     }
 
 }
