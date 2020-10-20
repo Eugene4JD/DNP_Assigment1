@@ -1,27 +1,51 @@
 ﻿@page "/add"
 @using DNPAssigment1.Components
+
 @inject NavigationManager NavigationManager;
-<h3>Add</h3>
-<button class="btn btn-primary" @onclick="openAddAdult">Add adult</button>
-<button class="btn btn-primary" @onclick="openAddChild">Add child</button>
-<button class="btn btn-primary" @onclick="openAddPet">Add pet</button>
-<PetForm></PetForm>
+<h3>Select what would you like to add:</h3>
+<select class="form-control selectpicker" @onchange="@AddSelection">
+    <option value="AddFAMILY">Add FAMILY</option>
+    <option value="AddADULT">Add ADULT</option>
+    <option value="AddCHILD">Add CHILD</option>
+    <option value="AddPET">Add PET</option>
+</select>
+@switch (selectedAdd)
+{
+    case "AddFAMILY":
+    {
+        <FamilyForm/>
+        break;
+    }
+    case "AddADULT":
+    {
+        <AdultForm/>
+        break;
+    }
+    case "AddCHILD":
+    {
+        <ChildForm/>
+        break;
+    }
+    case "AddPET":
+    {
+        <PetForm/>
+        break;
+    }
+}
+
 
 @code {
+    private string selectedAdd = "AddFAMILY";
 
-    public void openAddAdult()
+    private void AddSelection(ChangeEventArgs e)
     {
-     NavigationManager.NavigateTo("");   
-    }
-
-    public void openAddChild()
-    {
-        NavigationManager.NavigateTo("");
-    }
-
-    public void openAddPet()
-    {
-        NavigationManager.NavigateTo("");
+        selectedAdd = e.Value.ToString();
+        Console.WriteLine(selectedAdd);
+        Console.WriteLine(selectedAdd);
+        Console.WriteLine(selectedAdd);
+        Console.WriteLine(selectedAdd);
+        Console.WriteLine(selectedAdd);
+        Console.WriteLine(selectedAdd);
     }
 
 }

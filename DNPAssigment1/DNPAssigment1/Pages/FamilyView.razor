@@ -6,14 +6,14 @@
 
 
 <div class="row">
-        <div class="col-1">
-            Address:
-        </div>
-        <div class="col-2">
-            <b>@selectedFam.Address</b>
-        </div>
+    <div class="col-1">
+        Address:
     </div>
-    <h2>Adults:</h2>
+    <div class="col-2">
+        <b>@selectedFam.Address</b>
+    </div>
+</div>
+<h2>Adults:</h2>
 @if (selectedFam.Adults == null)
 {
     <p>Loading...</p>
@@ -56,7 +56,7 @@ else
         </tbody>
     </table>
 }
-    <h2>Children:</h2>
+<h2>Children:</h2>
 @if (selectedFam.Children == null)
 {
     <p>Loading...</p>
@@ -93,43 +93,43 @@ else
                 <td>@child.Age</td>
                 <td>@child.Weight</td>
                 <td>@child.Height</td>
-                <td>@child.Interests.ToArray().ToString()</td>
+                <td>@string.Join(" ", child.Interests.ToArray())</td>
             </tr>
         }
         </tbody>
     </table>
 }
-    <h2>Pets:</h2>
-    @if (selectedFam.Pets == null)
-    {
-        <p>Loading...</p>
-    }
-    else if (!selectedFam.Pets.Any())
-    {
-        <p>There are no pets in the family</p>
-    }
-    else
-    {
-        <table class="table">
-            <thead>
+<h2>Pets:</h2>
+@if (selectedFam.Pets == null)
+{
+    <p>Loading...</p>
+}
+else if (!selectedFam.Pets.Any())
+{
+    <p>There are no pets in the family</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Species</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var pet in selectedFam.Pets)
+        {
             <tr>
-                <th>Species</th>
-                <th>Name</th>
-                <th>Age</th>
+                <td>@pet.Species</td>
+                <td>@pet.Name</td>
+                <td>@pet.Age</td>
             </tr>
-            </thead>
-            <tbody>
-            @foreach (var pet in selectedFam.Pets)
-            {
-                <tr>
-                    <td>@pet.Species</td>
-                    <td>@pet.Name</td>
-                    <td>@pet.Age</td>
-                </tr>
-            }
-            </tbody>
-        </table>
-    }
+        }
+        </tbody>
+    </table>
+}
 
 @code {
     Family selectedFam { get; set; }
@@ -138,4 +138,5 @@ else
     {
         selectedFam = FamilyService.getSelectedFamily();
     }
+
 }
