@@ -40,7 +40,7 @@ else
                 <td>@family.Adults.First().LastName</td>
                 <td>@family.Address</td>
                 <td>
-                    <button @onclick="@(() => ModalService.Show<SecurityLevel>("Security Example"))"     class="btn btn-outline-dark btn-sm">More info.</button>
+                    <button @onclick="@(() => SetSelectedFamily(family))"  class="btn btn-outline-dark btn-sm">More info.</button>
                 </td>
             </tr>
         }
@@ -63,9 +63,10 @@ else
         Families = FamilyService.GetFamilies();
     }
 
-    private void DisplaySelectedFamily(ChangeEventArgs changeEventArgs)
+    private void SetSelectedFamily(Family family)
     {
-        throw new NotImplementedException();
+        FamilyService.setSelectedFamily(family);
+        ModalService.Show<FamilyView>("Security Example");
     }
 
 }

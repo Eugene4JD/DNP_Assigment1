@@ -13,5 +13,9 @@ namespace DNPAssigment1.Data
         void RemoveFamily(int familyId);
 
         void Update(Family family);
+
+        Family getSelectedFamily();
+
+        void setSelectedFamily(Family family);
     }
 }

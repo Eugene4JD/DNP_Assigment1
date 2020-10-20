@@ -49,6 +49,7 @@
           <e p="_Host.cshtml" t="Include" />
           <e p="Add.razor" t="Include" />
           <e p="Error.cshtml" t="Include" />
+          <e p="FamilyView.razor" t="Include" />
           <e p="Index.razor" t="Include" />
           <e p="SecurityLevel.razor" t="Include" />
           <e p="View.razor" t="Include" />

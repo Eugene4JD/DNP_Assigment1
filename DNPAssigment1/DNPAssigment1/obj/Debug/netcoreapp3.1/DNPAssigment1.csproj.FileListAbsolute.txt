@@ -178,3 +178,5 @@ C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\D
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\families.json
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FamilyView.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Pages\FamilyView.razor.g.cs
