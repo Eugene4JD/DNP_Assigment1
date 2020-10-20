@@ -1,33 +1,40 @@
 ﻿@page "/add"
 @using DNPAssigment1.Shared
+@using DNPAssigment1.Data
+@using DNPAssigment1.Models
 <h3>Add</h3>
+<div>
 <button class="btn btn-primary" @onclick="openAddAdult">Add adult</button>
 @if (adult)
 {
     <AdultForm></AdultForm>
 }
-
-
-<button class="btn btn-primary" @onclick="openAddChild">Add child</button>
-@if (child)
-{
-    <ChildForm></ChildForm>
-}
-
-<button class="btn btn-primary" @onclick="openAddPet">Add pet</button>
-@if (pet)
-{
-    <PetForm></PetForm>
-}
-
+</div>
+<div>
+    <button class="btn btn-primary" @onclick="openAddChild">Add child</button>
+    @if (child)
+    {
+        <ChildForm></ChildForm>
+    }
+</div>
+<div>
+    <button class="btn btn-primary" @onclick="openAddPet">Add pet</button>
+    @if (pet)
+    {
+        <PetForm></PetForm>
+    }
+</div>
+<div>
 <button class="btn btn-primary" @onclick="SaveFamily">Save Family</button>
-
+</div>
 
 
 @code {
     private bool adult= false;
     private bool child= false;
     private bool pet= false;
+    public Family family= new Family();
+    
     public void openAddAdult()
     {
         adult = true;
@@ -45,7 +52,8 @@
 
     private void SaveFamily()
     {
-        throw new NotImplementedException();
+        
+        // FamilyService.AddFamily()
     }
     
 

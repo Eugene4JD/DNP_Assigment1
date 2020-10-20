@@ -11,24 +11,24 @@
                 <option value="@specie">@specie</option>
             }
         </InputSelect>
-
     </div>
     <div class="form-group">
         <label>Name: </label>
-        <input class="input-group-text" @bind-value="Name">
+        <input class="input-group-text" @bind-value="pet.Name">
     </div>
     <div class="form-group">
         <label>Age: </label>
-        <input class="input-group-text" @bind-value="Age">
+        <input class="input-group-text" @bind-value="pet.Age">
     </div>
-    <button class="btn btn-primary">Save pet</button>
+    <button class="btn btn-primary" @onclick="savePet">Save pet</button>
 </form>
 
 @code{
-
     Pet pet = new Pet();
-    public string Name { get; set; }
 
-    public int Age { get; set; }
+    private void savePet()
+    {
+        throw new NotImplementedException();
+    }
 
 }
