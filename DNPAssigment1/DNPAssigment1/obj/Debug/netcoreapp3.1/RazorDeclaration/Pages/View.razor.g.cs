@@ -75,6 +75,13 @@ using DNPAssigment1.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\View.razor"
+using DNPAssigment1.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/view")]
     public partial class View : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -83,6 +90,21 @@ using DNPAssigment1.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 70 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\View.razor"
+       
+    private IList<Adult> Adults;
+    private IList<Child> Children;
+    private IList<Pet> Pets;
+
+    protected override Task OnInitializedAsync()
+    {
+        return base.OnInitializedAsync();
+    }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
