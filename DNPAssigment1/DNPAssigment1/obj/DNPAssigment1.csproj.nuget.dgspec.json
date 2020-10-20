@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Blazored.Modal": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

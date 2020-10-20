@@ -1,29 +1,27 @@
 ﻿@page "/add"
 @using DNPAssigment1.Components
+@inject NavigationManager NavigationManager;
 <h3>Add</h3>
 <button class="btn btn-primary" @onclick="openAddAdult">Add adult</button>
 <button class="btn btn-primary" @onclick="openAddChild">Add child</button>
 <button class="btn btn-primary" @onclick="openAddPet">Add pet</button>
-
 <PetForm></PetForm>
-
-
 
 @code {
 
     public void openAddAdult()
     {
-        
+     NavigationManager.NavigateTo("");   
     }
 
     public void openAddChild()
     {
-        
+        NavigationManager.NavigateTo("");
     }
 
     public void openAddPet()
     {
-        
+        NavigationManager.NavigateTo("");
     }
 
 }

@@ -58,7 +58,6 @@
         </e>
         <e p="Shared" t="Include">
           <e p="Login.razor" t="Include" />
-          <e p="Logout.razor" t="Include" />
           <e p="MainLayout.razor" t="Include" />
           <e p="NavMenu.razor" t="Include" />
           <e p="SurveyPrompt.razor" t="Include" />
