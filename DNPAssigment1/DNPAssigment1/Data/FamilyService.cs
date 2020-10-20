@@ -29,7 +29,7 @@ namespace DNPAssigment1.Data
         
         public IList<Family> GetFamilies()
         {
-            throw new System.NotImplementedException();
+            return this.families;
         }
 
         public void AddFamily(Family family)
