@@ -1,0 +1,79 @@
+﻿@page "/view"
+@using DNPAssigment1.Models
+<h2>
+    Family information:
+</h2>
+
+<div class="row">
+    <div class="col-1">
+        Street:
+    </div>
+    <div class="col-2">
+        <b>blala</b>
+    </div>
+</div>
+<div class="row">
+    <div class="col-1">
+        House Nr:
+    </div>
+    <div class="col-2">
+        <b>blala</b>
+    </div>
+</div>
+<h2>Adults:</h2>
+@if (Adults == null)
+{
+    <p>Loading...</p>
+}
+else if (!Adults.Any())
+{
+    <p>There are no adults in the family</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>F. Name</th>
+            <th>L. Name</th>
+            <th>ID</th>
+            <th>Hair Color</th>
+            <th>Eye Color</th>
+            <th>Age</th>
+            <th>Weight</th>
+            <th>Height</th>
+            <th>Job</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var adult in Adults)
+        {
+            <tr>
+                <td>@adult.FirstName</td>
+                <td>@adult.LastName</td>
+                <td>@adult.Id</td>
+                <td>@adult.HairColor</td>
+                <td>@adult.EyeColor</td>
+                <td>@adult.Age</td>
+                <td>@adult.Weight</td>
+                <td>@adult.Height</td>
+                <td>@adult.Job</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+<h2>Children:</h2>
+<h2>Pets:</h2>
+
+
+@code {
+    private IList<Adult> Adults;
+    private IList<Child> Children;
+    private IList<Pet> Pets;
+
+    protected override Task OnInitializedAsync()
+    {
+        return base.OnInitializedAsync();
+    }
+}

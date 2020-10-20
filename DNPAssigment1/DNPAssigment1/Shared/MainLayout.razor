@@ -1,24 +1,16 @@
 ﻿@inherits LayoutComponentBase
-@inject AuthenticationStateProvider AuthenticationStateProvider
-<AuthorizeView>
-    <Authorized>
-        <div class="sidebar">
-            <NavMenu/>
-        </div>
-        
-        <div class="main">
-            <div class="top-row px-4">
-                <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-            </div>
-        
-            <div class="content px-4">
-                @Body
-            </div>
-        </div>
-    </Authorized>
-    <NotAuthorized>
-        <div>
-            <Login/>
-        </div>
-    </NotAuthorized>
-</AuthorizeView>
+
+<div class="sidebar">
+    <NavMenu/>
+</div>
+
+<div class="main">
+    <div class="top-row px-4" style="background-color: #4C4C4C" >
+        <Login/>
+        <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>

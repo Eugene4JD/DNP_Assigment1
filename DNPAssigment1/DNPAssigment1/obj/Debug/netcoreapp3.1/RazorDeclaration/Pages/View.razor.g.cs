@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace LoginComponent
+namespace DNPAssigment1.Pages
 {
     #line hidden
     using System;
@@ -76,14 +76,14 @@ using DNPAssigment1.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\Login.razor"
-using DNPAssigment1.Data;
+#line 2 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\View.razor"
+using DNPAssigment1.Models;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/login")]
-    public partial class Login : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/view")]
+    public partial class View : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,48 +91,20 @@ using DNPAssigment1.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 43 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\Login.razor"
+#line 70 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Pages\View.razor"
        
-    private string username;
-    private string password;
-    private string errorMessage;
+    private IList<Adult> Adults;
+    private IList<Child> Children;
+    private IList<Pet> Pets;
 
-    public async Task PerformLogin()
+    protected override Task OnInitializedAsync()
     {
-        errorMessage = "";
-        try
-        {
-            ((CustomAuthenticationStateProvider) AuthenticationStateProvider).ValidateLogin(username, password);
-            username = "";
-            password = "";
-        }
-        catch (Exception e)
-        {
-            errorMessage = e.Message;
-        }
+        return base.OnInitializedAsync();
     }
-
-    public async Task PerformLogout()
-    {
-        errorMessage = "";
-        username = "";
-        password = "";
-        try
-        {
-            ((CustomAuthenticationStateProvider) AuthenticationStateProvider).Logout();
-            NavigationManager.NavigateTo("/");
-        }
-        catch (Exception e)
-        {
-        }
-    }
-
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private AuthenticationStateProvider AuthenticationStateProvider { get; set; }
     }
 }
 #pragma warning restore 1591
