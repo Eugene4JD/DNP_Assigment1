@@ -96,14 +96,7 @@ using Blazored.Modal.Services;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 1 "C:\Users\pavli\IdeaProjects\DNP_Assigment1\DNPAssigment1\DNPAssigment1\Components\PetForm.razor"
-using DNPAssigment1.Models;
-
-#line default
-#line hidden
-#nullable disable
-    public partial class PetForm : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class FamilyForm : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)

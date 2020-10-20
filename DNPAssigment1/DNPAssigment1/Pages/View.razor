@@ -40,7 +40,7 @@ else
                 <td>@family.Adults.First().LastName</td>
                 <td>@family.Address</td>
                 <td>
-                    <button @onclick="@(() => SetSelectedFamily(family))"  class="btn btn-outline-dark btn-sm">More info.</button>
+                    <button @onclick="@(() => SetSelectedFamily(family))" class="btn btn-outline-dark btn-sm">More info.</button>
                 </td>
             </tr>
         }
@@ -54,9 +54,6 @@ else
     string SearchTerm { get; set; } = "";
     private IList<Family> Families;
     IList<Family> FilteredFamilies => Families.Where(i => i.Adults.First().LastName.ToLower().Contains(SearchTerm.ToLower())).ToList();
-    private IList<Adult> Adults;
-    private IList<Child> Children;
-    private IList<Pet> Pets;
 
     protected async override Task OnInitializedAsync()
     {
