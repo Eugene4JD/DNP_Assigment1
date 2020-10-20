@@ -2,28 +2,51 @@
 @using DNPAssigment1.Shared
 <h3>Add</h3>
 <button class="btn btn-primary" @onclick="openAddAdult">Add adult</button>
-<button class="btn btn-primary" @onclick="openAddChild">Add child</button>
-<button class="btn btn-primary" @onclick="openAddPet">Add pet</button>
+@if (adult)
+{
+    <AdultForm></AdultForm>
+}
 
-<PetForm/>
+
+<button class="btn btn-primary" @onclick="openAddChild">Add child</button>
+@if (child)
+{
+    <ChildForm></ChildForm>
+}
+
+<button class="btn btn-primary" @onclick="openAddPet">Add pet</button>
+@if (pet)
+{
+    <PetForm/>
+}
+
+<button class="btn btn-primary" @onclick="SaveFamily">Save Family</button>
 
 
 
 @code {
-
+    private bool adult= false;
+    private bool child= false;
+    private bool pet= false;
     public void openAddAdult()
     {
-        
+        adult = true;
     }
 
     public void openAddChild()
     {
-        
+        child = true;
     }
 
     public void openAddPet()
     {
-        
+        child = false;
     }
+
+    private void SaveFamily()
+    {
+        throw new NotImplementedException();
+    }
+    
 
 }
