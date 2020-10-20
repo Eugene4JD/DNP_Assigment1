@@ -72,6 +72,27 @@ using DNPAssigment1.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\_Imports.razor"
+using Blazored;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\_Imports.razor"
+using Blazored.Modal;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\_Imports.razor"
+using Blazored.Modal.Services;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

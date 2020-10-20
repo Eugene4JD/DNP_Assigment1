@@ -22,7 +22,51 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29f7760f-d962-465f-bc57-b10e478d4f05" name="Default Changelist" comment="" />
+    <list default="true" id="29f7760f-d962-465f-bc57-b10e478d4f05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPAssigment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPAssigment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/App.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/Pages/View.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/Pages/View.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/Pages/_Host.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/Shared/MainLayout.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Components/AdultForm.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Components/AdultForm.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Components/ChildForm.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Components/ChildForm.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Components/PetForm.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Components/PetForm.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Add.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Add.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/SecurityLevel.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/SecurityLevel.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/View.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/View.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/_Host.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/Login.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/_Imports.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/App.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/AdultForm.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/AdultForm.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/ChildForm.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/ChildForm.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/PetForm.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Components/PetForm.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Add.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Add.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/SecurityLevel.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/SecurityLevel.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/View.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/View.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/Login.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/Login.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/MainLayout.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/NavMenu.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/_Imports.razor.g.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,18 +89,14 @@
         <option value="$PROJECT_DIR$/DNPAssigment1/Models/Family.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Models/Child.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Models/User.cs" />
-        <option value="$PROJECT_DIR$/DNPAssigment1/App.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/SecurityLevel.razor" />
-        <option value="$PROJECT_DIR$/DNPAssigment1/Pages/_Host.cshtml" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Data/CustomAuthenticationStateProvider.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Data/IUserService.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Data/InMemoryUserService.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/Login.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/wwwroot/css/site.css" />
-        <option value="$PROJECT_DIR$/DNPAssigment1/Pages/View.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Data/IFamilyService.cs" />
-        <option value="$PROJECT_DIR$/DNPAssigment1/Data/FamilyService.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Shared/Logout.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/AddPerson.cshtml" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/ChildForm.razor" />
@@ -64,7 +104,12 @@
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/AdultForm.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/Add.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Startup.cs" />
+        <option value="$PROJECT_DIR$/DNPAssigment1/Data/FamilyService.cs" />
+        <option value="$PROJECT_DIR$/DNPAssigment1/_Imports.razor" />
+        <option value="$PROJECT_DIR$/DNPAssigment1/Pages/View.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Shared/MainLayout.razor" />
+        <option value="$PROJECT_DIR$/DNPAssigment1/App.razor" />
+        <option value="$PROJECT_DIR$/DNPAssigment1/Pages/_Host.cshtml" />
       </list>
     </option>
   </component>
@@ -153,25 +198,25 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1417" height="116" key="GridCell.Tab.0.bottom" timestamp="1603196247852">
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom" timestamp="1603199932774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1417" height="116" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603196247852" />
+    <state width="1493" height="116" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603199932774" />
     <state width="1416" height="162" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1603046078961" />
-    <state width="1417" height="116" key="GridCell.Tab.0.center" timestamp="1603196247852">
+    <state width="1493" height="116" key="GridCell.Tab.0.center" timestamp="1603199932774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1417" height="116" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603196247852" />
+    <state width="1493" height="116" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603199932774" />
     <state width="1416" height="162" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1603046078961" />
-    <state width="1417" height="116" key="GridCell.Tab.0.left" timestamp="1603196247851">
+    <state width="1493" height="116" key="GridCell.Tab.0.left" timestamp="1603199932773">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1417" height="116" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603196247851" />
+    <state width="1493" height="116" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603199932773" />
     <state width="1416" height="162" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1603046078961" />
-    <state width="1417" height="116" key="GridCell.Tab.0.right" timestamp="1603196247852">
+    <state width="1493" height="116" key="GridCell.Tab.0.right" timestamp="1603199932774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1417" height="116" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603196247852" />
+    <state width="1493" height="116" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603199932774" />
     <state width="1416" height="162" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1603046078961" />
     <state x="617" y="288" key="Rider.ProjectTemplateDialog.Size" timestamp="1602615400149">
       <screen x="0" y="0" width="2048" height="1112" />
