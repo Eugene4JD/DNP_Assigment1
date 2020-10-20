@@ -15,6 +15,7 @@ namespace DNPAssigment1.Data
         private readonly IJSRuntime jsRuntime;
         private readonly IUserService userService;
 
+        
         private User cachedUser;
 
         public CustomAuthenticationStateProvider(IJSRuntime jsRuntime, IUserService userService)
