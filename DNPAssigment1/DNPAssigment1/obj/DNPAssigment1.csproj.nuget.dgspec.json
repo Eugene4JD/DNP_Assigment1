@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj": {}
+    "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj": {}
   },
   "projects": {
-    "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj": {
+    "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+        "projectUniqueName": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
         "projectName": "DNPAssigment1",
-        "projectPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+        "projectPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
         "packagesPath": "C:\\Users\\pente\\.nuget\\packages\\",
-        "outputPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\obj\\",
+        "outputPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pente\\AppData\\Roaming\\NuGet\\NuGet.Config"

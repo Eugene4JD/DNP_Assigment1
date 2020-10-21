@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qi6o95oWXj7gXgw+An/djTZmHF/vt1pos7xdewc3s+cvkE92x8UgH54SXCq1mB2GWo4Zdn6uv/X5LDe9ym4I6g==",
+  "dgSpecHash": "cOInkBnQsNcx7v3d2RmS7Yhw0XkXOve8Mg+2xBCDJvYohokw5cDWdMxX96LTRxilUCr68Z7E4JONSJgN7GeZ8g==",
   "success": true,
-  "projectFilePath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+  "projectFilePath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pente\\.nuget\\packages\\blazored.modal\\5.1.0\\blazored.modal.5.1.0.nupkg.sha512",
     "C:\\Users\\pente\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",

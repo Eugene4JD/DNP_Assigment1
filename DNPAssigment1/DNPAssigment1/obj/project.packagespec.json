@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+    "projectUniqueName": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
     "projectName": "DNPAssigment1",
-    "projectPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
-    "outputPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_2\\DNPAssigment1\\DNPAssigment1\\obj\\",
+    "projectPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+    "outputPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1_3\\DNPAssigment1\\DNPAssigment1\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
