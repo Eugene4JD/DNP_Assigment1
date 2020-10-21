@@ -10,6 +10,9 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Components" t="Include">
+          <e p="FamilyForm.razor" t="Include" />
+        </e>
         <e p="Data" t="Include">
           <e p="CustomAuthenticationStateProvider.cs" t="Include" />
           <e p="FamilyService.cs" t="Include" />

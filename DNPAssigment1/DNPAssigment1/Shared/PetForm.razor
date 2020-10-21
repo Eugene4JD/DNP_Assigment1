@@ -5,12 +5,12 @@
 <form>
     <div class="form-group">
         <label>Choose Specie: </label>
-        <InputSelect @bind-Value="pet.Species">
-            @foreach (var specie in Enum.GetValues(typeof(PetSpecies)))
-            { 
-                <option value="@specie">@specie</option>
-            }
-        </InputSelect>
+@*         <select @bind-Value="pet.Species"> *@
+@*             @foreach (var specie in Enum.GetValues(typeof(PetSpecies))) *@
+@*             {  *@
+@*                 <option value="@specie">@specie</option> *@
+@*             } *@
+@*         </select> *@
     </div>
     <div class="form-group">
         <label>Name: </label>
@@ -28,7 +28,7 @@
 
     private void savePet()
     {
-        throw new NotImplementedException();
+        //
     }
 
 }

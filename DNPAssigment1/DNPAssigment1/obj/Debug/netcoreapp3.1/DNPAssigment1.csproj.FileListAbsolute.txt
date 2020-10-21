@@ -257,3 +257,5 @@ D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\o
 D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.dll
 D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.pdb
 D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.genruntimeconfig.cache
+D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\FamilyForm.razor.g.cs
+D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Components\FamilyForm.razor.g.cs

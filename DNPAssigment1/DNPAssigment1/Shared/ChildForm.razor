@@ -20,7 +20,8 @@
     <div class="form-group">
         <label>Choose eye color: </label>
         <InputSelect @bind-Value="Child.EyeColor">
-            @foreach (var color in Enum.GetValues(typeof(EyeColor)))
+            @foreach (var color in Enum.GetValues(typeof(EyeColor))
+                )
             { 
                 <option value="@color">@color</option>
             }
