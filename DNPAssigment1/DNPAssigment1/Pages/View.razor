@@ -1,6 +1,7 @@
 ﻿@inject IFamilyService FamilyService;
 @inject IModalService ModalService;
 
+
 @page "/view"
 @using DNPAssigment1.Models
 @using DNPAssigment1.Data
@@ -37,18 +38,18 @@ else
         {
             <tr>
                 <td>@family.Id</td>
-                <td>@family.Adults.First().LastName</td>
+                <td>@family.Lastname</td>
                 <td>@family.Address</td>
                 <td>
                     <button @onclick="@(() => SetSelectedFamily(family))" class="btn btn-outline-dark btn-sm">More info.</button>
                 </td>
                 <AuthorizeView Policy="SecurityLevel2">
-                <td>
-                    <button @onclick="@(() => RemoveFamily(family.Id))">
-                        <i class="oi oi-trash" style="color:red"/>
-                    </button>
-                </td>
-               </AuthorizeView>
+                    <td>
+                        <button @onclick="@(() => RemoveFamily(family.Id))">
+                            <i class="oi oi-trash" style="color:red"/>
+                        </button>
+                    </td>
+                </AuthorizeView>
             </tr>
         }
         </tbody>
@@ -60,7 +61,7 @@ else
 @code {
     string SearchTerm { get; set; } = "";
     private IList<Family> Families;
-    IList<Family> FilteredFamilies => Families.Where(i => i.Adults.First().LastName.ToLower().Contains(SearchTerm.ToLower())).ToList();
+    IList<Family> FilteredFamilies => Families.Where(i => i.Lastname.ToLower().Contains(SearchTerm.ToLower())).ToList();
 
     protected async override Task OnInitializedAsync()
     {
@@ -72,7 +73,7 @@ else
         FamilyService.setSelectedFamily(family);
         ModalService.Show<FamilyView>("Family details:");
     }
-    
+
     private void RemoveFamily(int familyId)
     {
         Family familyToRemove = Families.First(f => f.Id == familyId);

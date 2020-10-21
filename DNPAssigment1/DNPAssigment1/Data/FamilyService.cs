@@ -133,7 +133,7 @@ namespace DNPAssigment1.Data
                             Species = PetSpecies.Dog
                         }
                     }.ToList(),
-
+                    Lastname = "Dean",
                     Address = "Downing street 5, Boston",
                     Id = 1
                 },
@@ -205,7 +205,7 @@ namespace DNPAssigment1.Data
                             Species = PetSpecies.Hamster
                         }
                     }.ToList(),
-
+                    Lastname = "Green",
                     Address = "Brown street 12, New York",
                     Id = 2
                 }
