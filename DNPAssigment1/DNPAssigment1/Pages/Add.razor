@@ -20,6 +20,7 @@
         <label>Choose type: </label>
         <select class="form-control" @onchange="PopRightForm" bind="@selectedType">
             <option value="choose">choose</option>
+            <option value="family">Family</option>
             <option value="adult">Adult</option>
             <option value="child">Child</option>
             <option value="pet">Pet</option>
@@ -124,7 +125,7 @@
             </div>
             <div class="form-group">
                 <label>Weigh: </label>
-            <input class="form-control input-group-text" @bind-value="newChild.Weight">
+                <input class="form-control input-group-text" @bind-value="newChild.Weight">
             </div>
             <div class="form-group">
                 <label>Choose interest: </label>
@@ -168,9 +169,25 @@
         </form>
     }
 </div>
-@* <div> *@
-@* <button class="btn btn-primary" @onclick="SaveFamily">Save Family</button> *@
-@* </div> *@
+
+<div>
+    @if (family)
+    {
+        <form>
+            <div class="form-group">
+                <label>Adress: </label>
+                <input class="form-control input-group-text" @bind-value="newFamily.Address">
+            </div>
+            <div class="form-group">
+                <label>Id: </label>
+                <input class="form-control input-group-text" @bind-value="newFamily.Id">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-secondary" @onclick="saveFamily">Save family</button>
+            </div>
+        </form>
+    }
+</div>
 
 
 @code {
@@ -215,17 +232,23 @@
 
     //--------Family------------------------
     public Family CurrentFamily;
-    public Family newFamily;
+    public Family newFamily= new Family();
 
     private IList<Family> getFamilies()
     {
         return FamilyService.GetFamilies();
     }
+    private void saveFamily()
+    {
+       FamilyService.AddFamily(newFamily);
+    }
+
 
     //-------sahred--------------------------
     private bool adult = false;
     private bool child = false;
     private bool pet = false;
+    private bool family = false;
     public string selectedType;
 
     Array eyeColors = Enum.GetValues(typeof(EyeColor));
@@ -271,24 +294,34 @@
         switch (e.Value.ToString())
         {
             case "adult":
+                family = false;
                 child = false;
                 pet = false;
                 adult = true;
                 type = "Adult";
                 break;
             case "child":
+                family = false;
                 child = true;
                 pet = false;
                 adult = false;
                 type = "Child";
                 break;
             case "pet":
+                family = false;
                 child = false;
                 pet = true;
                 adult = false;
                 type = "Pet";
                 break;
+            case "family":
+                family = true;
+                child = false;
+                pet = false;
+                adult = false;
+                break;
             case "choose":
+                family = false;
                 child = false;
                 pet = false;
                 adult = false;
@@ -343,5 +376,7 @@
     {
         newChild.Interests.Add(Enum.Parse<ChildInterest>(obj.Value.ToString()));
     }
+
+    
 
 }
