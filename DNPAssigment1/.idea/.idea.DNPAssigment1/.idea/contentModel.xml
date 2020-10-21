@@ -21,6 +21,7 @@
           <e p="IUserService.cs" t="Include" />
         </e>
         <e p="DNPAssigment1.csproj" t="IncludeRecursive" />
+        <e p="families.json" t="Include" />
         <e p="Models" t="Include">
           <e p="Adult.cs" t="Include" />
           <e p="Child.cs" t="Include" />
