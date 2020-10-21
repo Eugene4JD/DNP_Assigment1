@@ -2,25 +2,29 @@
 @using DNPAssigment1.Shared
 @using DNPAssigment1.Data
 @using DNPAssigment1.Models
+
+@inject IFamilyService FamilyService;
 <h3>Add</h3>
 <form>
-<div class="form-group">
-    <label>Choose family: </label>
-    <select class="form-control" @onchange="onFamilyChange">
-        <selesct selected value="choose">choose</selesct>
-        @foreach (var family in getFamilies())
-        {
-            <option value="@family.Id">@family.Id</option>
-        }
-    </select>
-    <label>Choose type: </label>
-    <select class="form-control" @onchange="PopRightForm" bind="@selectedType">
-        <option value="choose">choose</option>
-        <option value="adult">Adult</option>
-        <option value="child">Child</option>
-        <option value="pet">Pet</option>
-    </select>
-</div>
+    <div class="form-group">
+        <label>Choose family: </label>
+        <select class="form-control" @onchange="onFamilyChange">
+            <option selected value="choose">choose</option>
+            @foreach (var family in getFamilies())
+            {
+                <option value="@family.Id">@family.Id</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Choose type: </label>
+        <select class="form-control" @onchange="PopRightForm" bind="@selectedType">
+            <option value="choose">choose</option>
+            <option value="adult">Adult</option>
+            <option value="child">Child</option>
+            <option value="pet">Pet</option>
+        </select>
+    </div>
 </form>
 <div>
 
@@ -29,7 +33,7 @@
         <form>
             <div class="form-group">
                 <label>Fist name: </label>
-                <input  class="form-control input-group-text" @bind-value="newAdult.FirstName">
+                <input class="form-control input-group-text" @bind-value="newAdult.FirstName">
             </div>
             <div class="form-group">
                 <label>Last name: </label>
@@ -74,7 +78,9 @@
                 <label>Weigh: </label>
                 <input class="form-control input-group-text" @bind-value="newAdult.Weight">
             </div>
-            <button class="btn btn-secondary" @onclick="saveAdult">Save adult</button>
+            <div class="form-group">
+                <button class="btn btn-secondary" @onclick="saveAdult">Save adult</button>
+            </div>
         </form>
     }
 </div>
@@ -118,9 +124,20 @@
             </div>
             <div class="form-group">
                 <label>Weigh: </label>
-                <input class="form-control input-group-text" @bind-value="newChild.Weight">
+            <input class="form-control input-group-text" @bind-value="newChild.Weight">
             </div>
-            <button class="btn btn-secondary" @onclick="saveChild">Save child</button>
+            <div class="form-group">
+                <label>Choose interest: </label>
+                <select class="form-control" @onchange="childInterestSelected">
+                    @foreach (var interest in childInterests)
+                    {
+                        <option value="@interest">@interest.ToString()</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-secondary" @onclick="saveChild">Save child</button>
+            </div>
         </form>
     }
 </div>
@@ -145,7 +162,9 @@
                 <label>Age: </label>
                 <input class="form-control input-group-text" @bind-value="newPet.Age">
             </div>
-            <button class="btn btn-secondary" @onclick="savePet">Save pet</button>
+            <div class="form-group">
+                <button class="btn btn-secondary" @onclick="savePet">Save pet</button>
+            </div>
         </form>
     }
 </div>
@@ -161,7 +180,9 @@
 
     private void savePet()
     {
-        //TODO: saving comes here
+    //TODO: saving comes here
+        FamilyService.getSelectedFamily().Pets.Add(newPet);
+        FamilyService.Update(CurrentFamily);
 
         pet = false;
     }
@@ -172,7 +193,9 @@
 
     private void saveAdult()
     {
-        //TODO: saving comes here
+    //TODO: saving comes here
+        FamilyService.getSelectedFamily().Adults.Add(newAdult);
+        FamilyService.Update(CurrentFamily);
 
         adult = false;
     }
@@ -183,7 +206,9 @@
 
     private void saveChild()
     {
-        //TODO: saving comes here
+    //TODO: saving comes here
+        FamilyService.getSelectedFamily().Children.Add(newChild);
+        FamilyService.Update(CurrentFamily);
 
         child = false;
     }
@@ -194,9 +219,7 @@
 
     private IList<Family> getFamilies()
     {
-        IFamilyService familyService = new FamilyService();
-
-        return familyService.GetFamilies();
+        return FamilyService.GetFamilies();
     }
 
     //-------sahred--------------------------
@@ -208,6 +231,7 @@
     Array eyeColors = Enum.GetValues(typeof(EyeColor));
     Array hairColors = Enum.GetValues(typeof(HairColor));
     Array jobs = Enum.GetValues(typeof(Job));
+    Array childInterests = Enum.GetValues(typeof(ChildInterest));
     string type = "";
 
     private void onEyeColorChange(ChangeEventArgs obj)
@@ -269,7 +293,6 @@
                 pet = false;
                 adult = false;
                 break;
-                
         }
     }
 
@@ -313,6 +336,12 @@
             int i = int.Parse(obj.Value.ToString());
             CurrentFamily = getFamilies()[i - 1];
         }
+        FamilyService.setSelectedFamily(CurrentFamily);
+    }
+
+    private void childInterestSelected(ChangeEventArgs obj)
+    {
+        newChild.Interests.Add(Enum.Parse<ChildInterest>(obj.Value.ToString()));
     }
 
 }
