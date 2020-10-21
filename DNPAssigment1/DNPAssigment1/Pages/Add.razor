@@ -222,7 +222,7 @@
 
     private void saveAdult()
     {
-        if (FamilyService.getSelectedFamily().Adults.Count<2)
+        if (CurrentFamily.Adults.Count<2)
         {
             FamilyService.getSelectedFamily().Adults.Add(newAdult);
                     FamilyService.Update(CurrentFamily);
@@ -244,7 +244,7 @@
 
     private void saveChild()
     {
-        if (FamilyService.getSelectedFamily().Children.Count<5)
+        if (CurrentFamily.Children.Count<5)
         {
             FamilyService.getSelectedFamily().Children.Add(newChild);
             FamilyService.Update(CurrentFamily);
