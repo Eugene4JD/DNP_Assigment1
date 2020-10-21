@@ -1,15 +1,16 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+    "projectUniqueName": "C:\\Users\\Jenia\\Documents\\GitHub\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
     "projectName": "DNPAssigment1",
-    "projectPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
-    "outputPath": "D:\\OneDrive - ViaUC\\Semester_3\\DNP1\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\obj\\",
+    "projectPath": "C:\\Users\\Jenia\\Documents\\GitHub\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\DNPAssigment1.csproj",
+    "outputPath": "C:\\Users\\Jenia\\Documents\\GitHub\\DNP_Assigment1\\DNPAssigment1\\DNPAssigment1\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
@@ -49,7 +50,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Users\\pente\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
     }
   }
 }

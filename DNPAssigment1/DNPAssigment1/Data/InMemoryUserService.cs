@@ -18,14 +18,14 @@ namespace DNPAssigment1.Data
                 {
                     Password = "123456",
                     Role = "Teacher",
-                    SecurityLevel = 4,
+                    SecurityLevel = 2,
                     UserName = "Troels"
                 },  
                 new User
                 {
                     Password = "654321",
                     Role = "Student",
-                    SecurityLevel = 2,
+                    SecurityLevel = 1,
                     UserName = "Jakob"
                 },
             }.ToList();

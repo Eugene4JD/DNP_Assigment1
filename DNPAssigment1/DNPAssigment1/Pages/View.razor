@@ -42,6 +42,13 @@ else
                 <td>
                     <button @onclick="@(() => SetSelectedFamily(family))" class="btn btn-outline-dark btn-sm">More info.</button>
                 </td>
+                <AuthorizeView Policy="SecurityLevel2">
+                <td>
+                    <button @onclick="@(() => RemoveFamily(family.Id))">
+                        <i class="oi oi-trash" style="color:red"/>
+                    </button>
+                </td>
+               </AuthorizeView>
             </tr>
         }
         </tbody>
@@ -64,6 +71,14 @@ else
     {
         FamilyService.setSelectedFamily(family);
         ModalService.Show<FamilyView>("Security Example");
+    }
+    
+    private void RemoveFamily(int familyId)
+    {
+        Family familyToRemove = Families.First(f => f.Id == familyId);
+        FamilyService.RemoveFamily(familyId);
+        Families.Remove(familyToRemove);
+        FilteredFamilies.Remove(familyToRemove);
     }
 
 }

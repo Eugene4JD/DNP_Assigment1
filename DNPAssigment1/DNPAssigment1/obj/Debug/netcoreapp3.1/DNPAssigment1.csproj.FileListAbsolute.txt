@@ -157,12 +157,6 @@ C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\D
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.pdb
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.genruntimeconfig.cache
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.csproj.CopyComplete
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\AdultForm.razor.g.cs
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\ChildForm.razor.g.cs
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\PetForm.razor.g.cs
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Components\AdultForm.razor.g.cs
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Components\ChildForm.razor.g.cs
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Components\PetForm.razor.g.cs
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\DNPAssigment1.StaticWebAssets.xml
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\Blazored.Modal.dll
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
@@ -177,7 +171,6 @@ C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\D
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.WebAssembly.dll
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\families.json
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FamilyView.razor.g.cs
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Pages\FamilyView.razor.g.cs
 D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -259,3 +252,12 @@ D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\o
 D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\DNPAssigment1.genruntimeconfig.cache
 D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\FamilyForm.razor.g.cs
 D:\OneDrive - ViaUC\Semester_3\DNP1\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Components\FamilyForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\FamilyForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\AdultForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\ChildForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\PetForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Components\FamilyForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Shared\AdultForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Shared\ChildForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Shared\PetForm.razor.g.cs
+C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\families.json
