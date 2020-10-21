@@ -21,7 +21,6 @@
           <e p="IUserService.cs" t="Include" />
         </e>
         <e p="DNPAssigment1.csproj" t="IncludeRecursive" />
-        <e p="families.json" t="Include" />
         <e p="Models" t="Include">
           <e p="Adult.cs" t="Include" />
           <e p="Child.cs" t="Include" />
@@ -30,6 +29,7 @@
           <e p="Family.cs" t="Include" />
           <e p="HairColor.cs" t="Include" />
           <e p="Job.cs" t="Include" />
+          <e p="LengthAttribute.cs" t="Include" />
           <e p="Person.cs" t="Include" />
           <e p="Pet.cs" t="Include" />
           <e p="PetSpecies.cs" t="Include" />

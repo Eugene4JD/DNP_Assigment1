@@ -260,4 +260,3 @@ C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\D
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Shared\AdultForm.razor.g.cs
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Shared\ChildForm.razor.g.cs
 C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\obj\Debug\netcoreapp3.1\Razor\Shared\PetForm.razor.g.cs
-C:\Users\Jenia\Documents\GitHub\DNP_Assigment1\DNPAssigment1\DNPAssigment1\bin\Debug\netcoreapp3.1\families.json
