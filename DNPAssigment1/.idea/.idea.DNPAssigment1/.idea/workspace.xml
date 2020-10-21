@@ -22,7 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29f7760f-d962-465f-bc57-b10e478d4f05" name="Default Changelist" comment="" />
+    <list default="true" id="29f7760f-d962-465f-bc57-b10e478d4f05" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DNPAssigment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DNPAssigment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/bin/Debug/netcoreapp3.1/DNPAssigment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/DNPAssigment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Add.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Add.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/Razor/Pages/Index.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/DNPAssigment1.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Add.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Add.razor.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DNPAssigment1/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Index.razor.g.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +94,6 @@
         <option value="$PROJECT_DIR$/DNPAssigment1/Shared/PetForm.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Shared/Login.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/families.json" />
-        <option value="$PROJECT_DIR$/DNPAssigment1/Pages/View.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Models/Person.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Models/LengthAttribute.cs" />
@@ -86,6 +101,7 @@
         <option value="$PROJECT_DIR$/DNPAssigment1/Data/InMemoryUserService.cs" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/SecurityLevel.razor" />
         <option value="$PROJECT_DIR$/DNPAssigment1/Pages/Add.razor" />
+        <option value="$PROJECT_DIR$/DNPAssigment1/Pages/View.razor" />
       </list>
     </option>
   </component>
@@ -212,30 +228,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="pretty login" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1122" height="28" key="GridCell.Tab.0.bottom" timestamp="1603296464275">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="2005" height="116" key="GridCell.Tab.0.bottom" timestamp="1603302880044">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="116" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603199932774" />
     <state width="1122" height="28" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603296464275" />
-    <state width="2005" height="116" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1603291937012" />
-    <state width="1122" height="28" key="GridCell.Tab.0.center" timestamp="1603296464275">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="2005" height="116" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1603302880044" />
+    <state width="2005" height="116" key="GridCell.Tab.0.center" timestamp="1603302880044">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="116" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603199932774" />
     <state width="1122" height="28" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603296464275" />
-    <state width="2005" height="116" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1603291937012" />
-    <state width="1122" height="28" key="GridCell.Tab.0.left" timestamp="1603296464275">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="2005" height="116" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1603302880044" />
+    <state width="2005" height="116" key="GridCell.Tab.0.left" timestamp="1603302880044">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="116" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603199932773" />
     <state width="1122" height="28" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603296464275" />
-    <state width="2005" height="116" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1603291937011" />
-    <state width="1122" height="28" key="GridCell.Tab.0.right" timestamp="1603296464275">
-      <screen x="0" y="0" width="1858" height="1080" />
+    <state width="2005" height="116" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1603302880044" />
+    <state width="2005" height="116" key="GridCell.Tab.0.right" timestamp="1603302880044">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1493" height="116" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603199932774" />
     <state width="1122" height="28" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603296464275" />
-    <state width="2005" height="116" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1603291937012" />
+    <state width="2005" height="116" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1603302880044" />
     <state width="1122" height="391" key="GridCell.Tab.1.bottom" timestamp="1603295884117">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
